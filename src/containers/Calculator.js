@@ -43,7 +43,7 @@ function App() {
   const operatorClick = (operator) => {
     // if there was a previous operator recorded as having been clicked, perform
       // the operation for the previous operator
-      if (previousTotal && previousOperator) {
+      if (previousOperator) {
         switch (previousOperator) {
           case "+":
             add(runningTotal);
